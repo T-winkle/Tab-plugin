@@ -1,0 +1,52 @@
+body{
+    background: #323232;
+}
+#tab-wrap{
+    width: 406px;
+    height: 286px;
+    margin: 150px auto;
+}
+#tab-wrap .tab-nav{
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    /*width: 406px;*/
+    /*border-bottom: 1px solid red;*/
+}
+#tab-wrap .tab-nav li{
+    font-size: 12px;
+    display: inline-block;
+    padding: 8px 10px;
+    list-style-type: none;
+    cursor: pointer;
+    /*border-bottom: 1px solid red;*/
+    /*使下边界重合！！！*/
+    /*margin-bottom: -1px;*/
+    /*文本属性*/
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+    /*盒子属性*/
+    background: #767676;
+}
+
+#tab-wrap .tab-nav li + li{
+    margin-left: 5px;
+}
+#tab-wrap .tab-nav .active{
+    cursor: default;
+    color: #777;
+    background: #fff !important;
+}
+#tab-wrap .tab-panel{
+    position: absolute;
+    display: none;
+    padding: 3px;
+    background: white;
+}
+#tab-wrap .current{
+    display: inline-block;
+}
+#tab-wrap .tab-panel img{
+    display: block;
+    width: 400px;
+}
