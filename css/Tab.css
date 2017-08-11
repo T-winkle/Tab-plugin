@@ -4,7 +4,7 @@ body{
 #tab-wrap{
     width: 406px;
     height: 286px;
-    margin: 150px auto;
+    margin: 12% auto 0 auto;
 }
 #tab-wrap .tab-nav{
     font-size: 0;
